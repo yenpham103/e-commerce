@@ -42,7 +42,7 @@ const Navbar = () => {
             <img
               src={assets.profile_icon}
               alt='profile_icon'
-              className='w-5 cursor-pointer'
+              className='w-5 min-w-5 cursor-pointer'
             />
           </Link>
           <div className='group-hover:block hidden absolute drop-menu right-0 pt-4'>
